@@ -1,0 +1,21 @@
+{
+    "name": "zose/parser",
+    "description": "php-parser",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "class/App"
+        }
+    },
+    "authors": [
+        {
+            "name": "zose",
+            "email": "zosya43nax@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "voku/simple_html_dom": "^4.7"
+    }
+}
